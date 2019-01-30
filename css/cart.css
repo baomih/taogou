@@ -1,0 +1,14 @@
+#tg_container {
+    padding: 10px;
+}
+
+#tg_container>a {
+    width: 24px;
+    height: 24px;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    border-radius: 12px;
+    background: #a7a0a0;
+    color: #fff;
+}

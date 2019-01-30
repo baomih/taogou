@@ -1,0 +1,54 @@
+#tg_container .tg_header {
+    height: 50px;
+}
+
+#tg_container .tg_content {
+    padding: 50px 0 60px 0;
+}
+
+.tg_header .top {
+    position: relative;
+    background: #E6E6E6;
+}
+
+.tg_header .top a {
+    position: absolute;
+    left: 10px;
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.tg_header .top .input {
+    padding: 0 50px 0 30px;
+    margin: 0;
+    height: 30px;
+    background: #fff;
+    border: 1px solid #E6E6E6;
+}
+
+.tg_header .top .submit {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    height: 32px;
+    background: #E6E6E6;
+    border: none;
+    color: #666;
+    border-left: 1px solid #E6E6E6;
+}
+
+.tg_content .category a {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+.tg_content .category a.now {
+    color: #e796ef;
+}
+
+#refreshContainer {
+    touch-action: none;
+}

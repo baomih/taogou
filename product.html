@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="description" content="淘购-网上购物商城,运动鞋、男鞋、女鞋、童鞋、箱包">
+    <meta name="Keywords" content="淘购 鞋城 买鞋子 上淘购 运动鞋 篮球鞋 帆布鞋 跑步鞋 男鞋 女鞋 足球鞋 休闲鞋 凉鞋 户外鞋 布洛克 高跟鞋 单鞋 豆豆鞋 乐福鞋 牛津鞋 凉拖 皮鞋 短靴 长靴 登山鞋 徒步鞋 硫化鞋 训练鞋 溯溪鞋 越野鞋 板鞋 足球鞋 网球鞋 赛车鞋 雪地靴 马丁靴 商务 英伦">
+    <title>淘购-配送及时、轻松购物</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="assets/mui/css/mui.min.css">
+    <link rel="stylesheet" href="assets/fontAwesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/product.css">
+</head>
+
+<body>
+    <div id="tg_container">
+        <a href="javascript:history.back();" class="fa fa-angle-left f_left"></a>
+        <a href="javascript:;" class="fa fa-ellipsis-h f_right"></a>
+        <!--todo-->
+    </div>
+    <script type="text/template" id="detailTemplate">
+        <div class="mui-slider">
+            <div class="mui-slider-group">
+                <div class="mui-slider-item">
+                    <a href="#"><img src="<%=data.pic[0].picAddr%>" /></a>
+                </div>
+                <div class="mui-slider-item">
+                    <a href="#"><img src="<%=data.pic[0].picAddr%>" /></a>
+                </div>
+            </div>
+            <div class="mui-slider-indicator">
+                <div class="mui-indicator mui-active"></div>
+                <div class="mui-indicator"></div>
+            </div>
+        </div>
+        <div class="p_title">
+            <%=data.proName%>
+        </div>
+        <div class="p_price">
+            <strong class="present">&yen;<%=data.price%></strong>
+            <del class="original">&yen;
+                <%=data.oldPrice%>
+            </del>
+        </div>
+        <div class="p_size">
+            尺码：
+            <%for(var i=data.size.split('-')[0]; i<=data.size.split('-')[1]; i++){%>
+                <span class="btn_size"><%=i%></span>
+                <%}%>
+        </div>
+        <div class="p_number">
+            数量：
+            <span class="jian">-</span>
+            <input readonly="" type="text" value="0" data-max="<%=data.num%>"><span class="jia">+</span> 剩余：
+            <%=data.num%>件
+        </div>
+        <div class="p_option">
+            <a href="cart.html" class="btn_cart fa fa-shopping-cart"></a>
+            <a href="javascript:;" class="btn_addCart">加入购物车</a>
+            <a href="javascript:;" class="btn_pay">立即购买</a>
+        </div>
+    </script>
+    <script src="assets/zepto/zepto.min.js"></script>
+    <script src="assets/mui/js/mui.min.js"></script>
+    <script src="assets/artTemplate/template-native.js"></script>
+    <script src="js/product.js"></script>
+</body>
+
+</html>

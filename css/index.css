@@ -1,0 +1,200 @@
+.tg_product {
+    width: 100%;
+    padding: 0 5px;
+}
+
+.tg_product .tg_product_box {
+    width: 100%;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    margin-top: 10px;
+}
+
+.tg_product .tg_product_box .title {
+    height: 34px;
+    position: relative;
+    line-height: 34px;
+    padding-left: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.tg_product .tg_product_box .title:first-child {
+    border: none;
+}
+
+.tg_product .tg_product_box h2 {
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.tg_product .tg_product_box h2::before {
+    content: "";
+    width: 3px;
+    height: 10px;
+    background-color: #E796EF;
+    position: absolute;
+    top: 4px;
+    left: 10px;
+}
+
+.tg_product .tg_product_box .title .discribe {
+    float: left;
+}
+
+.tg_product .tg_product_box .title .discribe .seckill_icon {
+    float: left;
+    margin-top: 7px;
+    margin-left: -3px;
+    display: block;
+    width: 16px;
+    height: 20px;
+    background: url("../images/seckill-icon.png") no-repeat center/16px 20px;
+}
+
+.tg_product .tg_product_box .title .discribe .text {
+    float: left;
+    font-size: 16px;
+    color: #E796EF;
+    margin: 0 10px;
+}
+
+.tg_product .tg_product_box .title .discribe .time {
+    float: left;
+}
+
+.tg_product .tg_product_box .title .discribe .time span {
+    float: left;
+    width: 16px;
+    height: 16px;
+    text-align: center;
+    line-height: 16px;
+    background: #333333;
+    color: #fff;
+    margin-left: 3px;
+    margin-top: 10px;
+}
+
+.tg_product .tg_product_box .title .discribe .time span:nth-child(3),
+.tg_product .tg_product_box .title .discribe .time span:nth-child(6) {
+    width: 5px;
+    background: #fff;
+    color: #333333;
+}
+
+.tg_product .tg_product_box .title a {
+    float: right;
+}
+
+.tg_product .tg_product_box .content {
+    overflow: hidden;
+}
+
+.tg_product .tg_product_box .content a {
+    padding-top: 10px;
+    display: block;
+    width: 33%;
+    float: left;
+    border-right: 1px solid #ddd;
+}
+
+.tg_product .tg_product_box .content .haha {
+    border: none;
+}
+
+.tg_product .tg_product_box .content a img {
+    display: block;
+    width: 64%;
+    margin: 0 auto;
+}
+
+.tg_product .tg_product_box .content p {
+    float: left;
+    display: block;
+    width: 33.3%;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 10px;
+    color: #E796EF;
+}
+
+.tg_product .tg_product_box .content h4 {
+    float: left;
+    display: block;
+    width: 33.3%;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: normal;
+    color: #666666;
+    font-size: 12px;
+    text-decoration: line-through;
+}
+
+.tg_product_box .pro_item {
+    width: 48%;
+    float: left;
+    margin-top: 10px;
+}
+
+.tg_product_box .pro_item:nth-child(2n) {
+    margin-left: 4%;
+}
+
+.tg_product_box .pro_item .pro_item_box {
+    width: 100%;
+    min-height: 200px;
+    box-shadow: 0 0 3px #ddd;
+    display: block;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.tg_product_box .pro_item .pro_item_box img {
+    width: 100%;
+    display: block;
+}
+
+.tg_product_box .pro_item .pro_item_box p:first-of-type {
+    padding: 0 10px;
+}
+
+.tg_product_boxt .pro_item .pro_item_box .nowPrice {
+    font-size: 12px;
+    color: #E796EF;
+}
+
+.tg_product_box .pro_item .pro_item_box p:last-of-type {
+    text-align: center;
+    color: #E796EF;
+}
+
+.tg_product_box .pro_item .pro_item_box .oldPrice {
+    font-size: 12px;
+    color: #ccc;
+    text-decoration: line-through;
+}
+
+
+/* 组合样式====================== */
+
+.w_50 {
+    width: 50%;
+    display: block;
+}
+
+.bl {
+    border-left: : 1px solid #ddd;
+}
+
+.br {
+    border-right: 1px solid #ddd;
+}
+
+.bt {
+    border-bottom: : 1px solid #ddd;
+}
+
+.content2 a img {
+    display: block;
+    width: 100%;
+}
